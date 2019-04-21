@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="df331225-ebb3-4751-b539-28c3f2dd11c3" name="10.90.46.116-mtcnn" url="http://10.90.46.116">
+        <fileTransfer host="10.90.46.116" port="22" rootFolder="/home/zhengyuwei/python-projects/mtcnn/MTCNN-Tensorflow-master" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9c27d4de-99d5-4754-a8af-aeae6e09937f" name="10.90.46.119-mtcnn" url="http://10.90.46.119">
+        <fileTransfer host="10.90.46.119" port="22" rootFolder="/home/zhengyuwei/python_project/mtcnn/MTCNN-Tensorflow-master" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="23cb207a-b5a9-4cb6-93e5-7c8d5fad523f" name="10.90.46.101-mtcnn" url="http://10.90.46.101">
+        <fileTransfer host="10.90.46.101" port="22" rootFolder="/home/zhengyuwei/python_project/MTCNN-Tensorflow-master" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

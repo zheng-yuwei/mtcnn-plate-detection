@@ -1,23 +1,4 @@
-# 中国车牌检测模型
-
-IoU计算方式
-
-
-留有余量：
-1/20
-bounding box大于的为线性惩罚：
-
-
-
-## 描述
-使用MTCNN模型进行车牌检测及关键点检测。
-相比原始脸部关键点检测MTCNN模型的主要更改点有：
-1. 为PNet模型产生训练样本时，使用的IoU函数为修正后的square_IoU，参考 `/prepare_date/util.py`；
-2.
-
-## 解疑
-1. 为什么不改变网络输入比例，如调整为
-因为车牌比例各异
+参考原始repository：[AITTSMD/MTCNN-Tensorflow](https://github.com/AITTSMD/MTCNN-Tensorflow)
 
 ## Prerequisites
 1. You need CUDA-compatible GPUs to train the model.
